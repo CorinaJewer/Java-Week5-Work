@@ -1,0 +1,22 @@
+Question
+
+a - No, Calling a static method will always invoke the static method of the superclass.
+b - No, If you have a subclass instance and you call the instance method, the method of the subclass (if overridden) will be called.
+c - No, Final methods cannot be overridden in an subclass. Implementation is fixed and cannot be changed.
+d - No, This cannot be done at the same time, concepts are mutually exclusive.
+e - No, An overridden method in a subclass must have the same signature as the method in the superclass including the name, parameter types and return type.
+f - No
+g - Yes, this is called shadowing. An instance field can shadow a static field with the same name within subclass.
+h - No
+i - Yes
+j - No
+k - Yes
+l - No
+m - Visibility (widest to narrowest)
+
+    Public
+    Protected
+    Default
+    Private
+
+    Rule - The visibility of the overriding method must be equal to or greater than the visibility of the overridden method.
